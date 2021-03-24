@@ -17,7 +17,6 @@ import { OwlYearViewComponent } from './calendar-year-view.component';
 import { OwlMultiYearViewComponent } from './calendar-multi-year-view.component';
 import { OwlTimerBoxComponent } from './timer-box.component';
 import { OwlTimerComponent } from './timer.component';
-import { NumberFixedLenPipe } from './numberedfixlen.pipe';
 import { OwlCalendarComponent } from './calendar.component';
 import { OwlDateTimeInlineComponent } from './date-time-inline.component';
 import { OwlDialogModule } from '../dialog/dialog.module';
@@ -47,7 +46,6 @@ import { OwlDialogModule } from '../dialog/dialog.module';
         OwlTimerBoxComponent,
         OwlCalendarComponent,
         OwlCalendarBodyComponent,
-        NumberFixedLenPipe,
         OwlDateTimeInlineComponent,
     ],
     providers: [
