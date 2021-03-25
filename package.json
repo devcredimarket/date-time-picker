@@ -1,5 +1,5 @@
 {
-  "name": "@npm-cmk/angular-datetime-picker",
+  "name": "@credimarket/angular-datetime-picker",
   "version": "11.0.1",
   "description": "Angular Date Time Picker",
   "keywords": [
@@ -33,6 +33,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/devcredimarket/date-time-picker.git"
+  },
+  "publishConfig": {
+    "registry": "https://npmpackages.credimarket.com"
   },
   "dependencies": {
     "@angular/animations": "^10.0.6",
