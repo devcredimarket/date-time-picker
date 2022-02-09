@@ -1,5 +1,5 @@
 {
-  "name": "@credimarket/angular-datetime-picker",
+  "name": "@ocp-acierto/finance-component-date-time-picker",
   "version": "11.0.1",
   "description": "Angular Date Time Picker",
   "keywords": [
@@ -32,10 +32,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/devcredimarket/date-time-picker.git"
+    "url": "https://github.com/OCP-Acierto/finance-component-date-time-picker.git"
   },
   "publishConfig": {
-    "registry": "https://npmpackages.credimarket.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
     "@angular/animations": "^10.0.6",
