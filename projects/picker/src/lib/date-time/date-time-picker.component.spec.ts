@@ -72,11 +72,7 @@ describe('OwlDateTimeComponent', () => {
             declarations: [component, ...entryComponents]
         });
 
-        TestBed.overrideModule(BrowserDynamicTestingModule, {
-            set: {
-                entryComponents: [entryComponents]
-            }
-        }).compileComponents();
+        TestBed.overrideModule(BrowserDynamicTestingModule, {}).compileComponents();
 
         return TestBed.createComponent(component);
     }
