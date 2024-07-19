@@ -1,25 +1,16 @@
 {
   "name": "@credimarket/angular-datetime-picker",
-  "version": "12.0.0",
-  "description": "Angular Date Time Picker",
-  "keywords": [
-    "Angular",
-    "datepicker",
-    "date picker",
-    "timepicker",
-    "time picker",
-    "datetime picker",
-    "date time picker",
-    "material",
-    "ngx"
-  ],
-  "author": "Maintained and updated by Daniel Moncada, original implementatiom by Daniel Pan",
+  "version": "17.3.8",
   "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": "20.15.1"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/devcredimarket/date-time-picker.git"
+    "url": "https://github.com/OCP-Acierto/finance-component-date-time-picker.git"
   },
-  "homepage": "https://github.com/devcredimarket/date-time-picker",
+  "homepage": "https://github.com/OCP-Acierto/finance-component-date-time-picker",
   "publishConfig": {
     "access": "public"
   },

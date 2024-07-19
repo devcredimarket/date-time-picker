@@ -321,7 +321,6 @@ class StandardMonthViewComponent {
 class MonthViewWithDateFilterComponent {
     pickerMoment = new Date(2018, JAN, 1);
     dateFilter(date: Date) {
-      // tslint:disable-next-line:triple-equals
         return date.getDate() % 2 === 0;
     }
 }
